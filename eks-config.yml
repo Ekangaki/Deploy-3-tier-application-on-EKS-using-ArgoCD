@@ -3,16 +3,16 @@ kind: ClusterConfig
 
 metadata:
   name: wanderblog-eks-cluster
-  region: ap-south-1
+  region: us-east-1
   version: "1.35" 
   tags:
-    owner: gauri-shirkande
+    owner: ekangaki-njang
     bu: cwg
     project: wanderblog
 
 availabilityZones:
-  - ap-south-1a
-  - ap-south-1b
+  - us-east-1a
+  - us-east-1b
 
 iam:
   withOIDC: true
